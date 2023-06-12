@@ -1,0 +1,174 @@
+*{
+    width: 390px;
+    height:844px;
+    background-color: white;
+    }
+    
+    .top{
+     
+    // box-sizing: border-box;
+    
+    max-width: 355px;
+    max-height: 159px;
+    
+    background: rgba(229,229,229,1);
+    // border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    }
+    
+    .icono-menu{
+        // max-height: 69px;
+        size: 5%;
+    
+    
+    }
+    
+    .logo{
+        max-height: 102px;
+    
+    }
+    
+    .navigation-menu {
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.33fr 0.33fr 0.33fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "."
+        "."
+        ".";
+        width: 181px;
+        height: 212px;
+    
+        background: #FFFFFF;
+        border-radius: 25px;
+    
+    }
+    
+    
+    
+    
+    
+    /* Rectangle 6 
+    
+    position: absolute;
+    left: 14.08%;
+    right: 34.93%;
+    top: 75.47%;
+    bottom: -108.81%;
+    
+    background: #FFFFFF;
+    border-radius: 25px;*/
+    
+    
+    
+    
+    /* Line 14 
+    
+    position: absolute;
+    left: 14.08%;
+    right: 35.64%;
+    top: 118.87%;
+    bottom: -18.87%;
+    
+    border: 1px solid #000000;*/
+    
+    
+    
+    
+    .menu {
+        list-style: none;
+    
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+    
+        color: #000000;
+    
+    
+    }
+    
+    .pignoise_30_06_2021 {
+    
+        max-height: 207px;
+        max-width: 390px;
+    
+    }
+    
+    h1 {
+    
+            width: 281px;
+            height: 42px;
+            
+            font-family: 'Roboto Condensed';
+            font-style: bold;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            color: #000000;
+    }
+    
+    
+    
+    h2 {
+    
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #000000;
+    
+    
+    }
+    
+    .mas_canciones {
+    
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+            gap: 0px 55px;
+            grid-auto-flow: column;
+            grid-template-areas:
+              "sensacion",
+              "entristecer",
+              "huesos",
+              "besos_gastados",
+              "equivocado",
+              "doler",
+              "alas_rotas",
+              "lugar",
+              "todavía",
+              "adiós";
+    
+            width: 144px;
+            height: 138px;
+       
+    }
+    
+    .canciones_diversion_1 {
+    
+        grid-column: 1;
+        grid-row: 1 / 6;
+    }
+    
+    .canciones_diversion_2 {
+    
+        grid-column: 2;
+        grid-row: 1 / 6;
+    
+    }
