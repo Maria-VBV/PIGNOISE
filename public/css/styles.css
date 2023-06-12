@@ -6,14 +6,21 @@
 }
 
 .top {
+  /* HEADER-PAG PRINCIPAL */
+  box-sizing: border-box;
   max-width: 355px;
   max-height: 159px;
   background: rgb(229, 229, 229);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 25px;
 }
 
 .icono-menu {
+<<<<<<< HEAD
   size: 5%;
+=======
+  max-height: 69px;
+>>>>>>> pagina_principal2
 }
 
 .logo {
@@ -21,6 +28,7 @@
 }
 
 .navigation-menu {
+<<<<<<< HEAD
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.33fr 0.33fr 0.33fr;
@@ -54,6 +62,61 @@ bottom: -18.87%;
 border: 1px solid #000000;*/
 .menu {
   list-style: none;
+=======
+  /* Group 44 */
+  position: absolute;
+  width: 175px;
+  height: 185px;
+  left: 56px;
+  top: 134px;
+  /* Group 41 */
+  position: absolute;
+  width: 175px;
+  height: 185px;
+  left: 56px;
+  top: 134px;
+  /* Biografía */
+  position: absolute;
+  width: 174px;
+  height: 55px;
+  left: 57px;
+  top: 134px;
+  /* Biografía */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  /* Discografía */
+  position: absolute;
+  width: 174px;
+  height: 51px;
+  left: 56px;
+  top: 268px;
+  /* Discografía */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  /* Miembros */
+>>>>>>> pagina_principal2
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 500;
