@@ -1,0 +1,50 @@
+.top{
+     
+    max-width: 355px;
+    max-height: 159px;
+    
+    background: rgba(229,229,229,1);
+    border-radius: 25px;
+
+    .icono-menu{
+        size: 5%;
+    }
+    
+    .logo{
+        max-height: 102px;
+    }
+  
+}
+    
+  
+.navigation-menu {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.33fr 0.33fr 0.33fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "biografia", "miembros", "discografia";
+    width: 181px;
+    height: 212px;
+    
+    background: #FFFFFF;
+    border-radius: 25px;
+
+    .menu{
+    
+        list-style: none;
+    
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    } 
+    
+}
+    
+    

@@ -1,0 +1,81 @@
+.section1{
+       
+    .pignoise_30_06_2021{
+    
+        max-height: 207px;
+        max-width: 390px;
+    
+    }
+}
+
+.section2{
+    h1{
+    
+        width: 281px;
+        height: 42px;
+            
+        font-family: 'Roboto Condensed';
+        font-style: bold;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+            
+        color: #000000;
+    }
+    
+    
+    h2{
+    
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #000000;
+    
+    
+    }
+    
+    .mas_canciones{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+        gap: 0px 55px;
+        grid-auto-flow: column;
+        grid-template-areas:
+        "sensacion",
+        "entristecer",
+        "huesos",
+        "besos_gastados",
+        "equivocado",
+        "doler",
+        "alas_rotas",
+        "lugar",
+        "todavía",
+        "adiós";
+    
+        width: 144px;
+        height: 138px;
+       
+    }
+    
+    .canciones_diversion_1{
+    
+        grid-column: 1;
+        grid-row: 1 / 6;
+    }
+    
+    .canciones_diversion_2{
+    
+        grid-column: 2;
+        grid-row: 1 / 6;
+    }
+}
